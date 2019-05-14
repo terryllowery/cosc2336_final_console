@@ -41,10 +41,7 @@ public class Artist {
 
     @Override
     public String toString() {
-        return "Artist{" +
-                "album=" + album +
-                ", artistId=" + artistId +
-                ", name='" + name + '\'' +
-                '}';
+        return "Artist name: " + getName() + "\n"
+                + "Album name: " + album.getName() + "\n";
     }
 }
