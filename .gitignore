@@ -23,3 +23,7 @@
 hs_err_pid*
 
 !libs/sqlite-jdbc-3.27.2.1.jar
+
+# output
+out/*
+
