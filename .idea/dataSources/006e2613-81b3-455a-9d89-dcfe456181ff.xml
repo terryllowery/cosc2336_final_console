@@ -38,13 +38,11 @@
     <index id="13" parent="6" name="sqlite_autoindex_Albums_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>AlbumID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="14" parent="6" name="sqlite_autoindex_Albums_2">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="15" parent="6">
@@ -74,7 +72,6 @@
     <index id="20" parent="7" name="sqlite_autoindex_Artists_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ArtistID</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="21" parent="7">
