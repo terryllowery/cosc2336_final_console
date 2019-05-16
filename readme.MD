@@ -84,4 +84,4 @@ Specifications
 
 5. Create a class with a main() method that uses the Artist, Album, and MusicDB classes to display a list of the artists, a list of the albums, and a list of the albums by artist.
 
-6. If the application encounters any exceptions, it should display them on the console.
+6. If the application encounters any exceptions, it should display them on the console."# cosc2336_final_console" 
