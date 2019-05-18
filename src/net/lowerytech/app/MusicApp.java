@@ -15,17 +15,7 @@ public class MusicApp {
         List<Artist> artists = musicDB.getAll();
 
         Console.printHeader("Artists");
-<<<<<<< Updated upstream
-        List<String> artistNames = artists.stream()
-                .map(a -> a.getName())
-                .distinct()
-                .collect(Collectors.toList());
-        artistNames.stream()
-                .sorted()
-                .forEach(System.out::println);
-=======
 
->>>>>>> Stashed changes
 
         System.out.println();
         Console.printHeader("Albums");
