@@ -9,7 +9,10 @@ import net.lowerytech.models.Artist;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class MusicDB {
     private static String DBURL = "jdbc:sqlite:music_artists.sqlite";
@@ -26,7 +29,9 @@ public class MusicDB {
                 " alb.AlbumID albumID," +
                 " alb.Name albumName" +
                 " FROM Artists art" +
-                " INNER JOIN Albums alb ON art.ArtistID = alb.ArtistID";
+                " INNER JOIN Albums alb ON art.ArtistID = alb.ArtistID" +
+                " ORDER BY art.Name DESC," +
+                " alb.Name ASC ";
 
         try {
             Connection connection = getConnection(DBURL);
@@ -44,7 +49,7 @@ public class MusicDB {
             System.err.println(e);
         }
         return products;
-
-
     }
+
+
 }
