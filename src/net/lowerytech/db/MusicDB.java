@@ -14,6 +14,9 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+/**
+ * The type Music db.
+ */
 public class MusicDB {
     private static String DBURL = "jdbc:sqlite:music_artists.sqlite";
     private static Connection getConnection(String DBURL) throws SQLException {
@@ -22,6 +25,11 @@ public class MusicDB {
         return DriverManager.getConnection(DBURL);
     }
 
+    /**
+     * Gets all.
+     *
+     * @return the all
+     */
     public static List<Artist> getAll() {
         List<Artist> products = new ArrayList<>();
         String sql = "SELECT art.ArtistID artistID," +

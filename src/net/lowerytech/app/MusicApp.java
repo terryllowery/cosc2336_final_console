@@ -10,8 +10,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * The type Music app.
+ */
 public class MusicApp {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         // Create new MusicDb object to call the database
         MusicDB musicDB = new MusicDB();
