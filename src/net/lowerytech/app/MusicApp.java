@@ -4,6 +4,7 @@ import net.lowerytech.console.Console;
 import net.lowerytech.db.MusicDB;
 import net.lowerytech.models.Artist;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,6 +15,7 @@ public class MusicApp {
         List<Artist> artists = musicDB.getAll();
 
         Console.printHeader("Artists");
+<<<<<<< Updated upstream
         List<String> artistNames = artists.stream()
                 .map(a -> a.getName())
                 .distinct()
@@ -21,6 +23,9 @@ public class MusicApp {
         artistNames.stream()
                 .sorted()
                 .forEach(System.out::println);
+=======
+
+>>>>>>> Stashed changes
 
         System.out.println();
         Console.printHeader("Albums");
@@ -28,6 +33,7 @@ public class MusicApp {
                 .map(a -> a.getAlbum().getName())
                 .collect(Collectors.toList());
         albumNames.stream()
+                .sorted()
                 .forEach(System.out::println);
 
 

@@ -14,9 +14,9 @@ import java.util.List;
 public class MusicDB {
     private static String DBURL = "jdbc:sqlite:music_artists.sqlite";
     private static Connection getConnection(String DBURL) throws SQLException {
-        Connection connection = DriverManager.getConnection(DBURL);
+        //Connection connection = DriverManager.getConnection(DBURL);
 
-        return connection;
+        return DriverManager.getConnection(DBURL);
     }
 
     public static List<Artist> getAll() {

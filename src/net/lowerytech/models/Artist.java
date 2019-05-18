@@ -4,6 +4,10 @@
  */
 package net.lowerytech.models;
 
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Artist {
     private Album album;
     private int artistId;
@@ -37,6 +41,16 @@ public class Artist {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<String> getArtistNameSortedReversed(List<Artist> artists) {
+        List<String> artistNames = artists.stream()
+                .map(a -> a.getName())
+                .distinct()
+                .collect(Collectors.toList());
+        artistNames.stream()
+                .sorted(Comparator.reverseOrder())
+                .forEach(System.out::println);
     }
 
     @Override
