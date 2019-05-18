@@ -19,6 +19,7 @@ public class MusicApp {
                 .distinct()
                 .collect(Collectors.toList());
         artistNames.stream()
+                .sorted()
                 .forEach(System.out::println);
 
         System.out.println();
