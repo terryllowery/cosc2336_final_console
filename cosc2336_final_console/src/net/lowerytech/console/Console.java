@@ -1,13 +1,13 @@
 package net.lowerytech.console;
 
 /**
- * The type Console.
+ * <code>Console</code> class is a helper to print the header before
+ * each artist/album
  */
 public class Console {
 
     /**
-     * Print header.
-     *
+     * Print header
      * @param prompt the prompt
      */
     public static void printHeader(String prompt) {

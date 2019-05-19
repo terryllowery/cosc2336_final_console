@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db804f89-7ab3-4719-81bd-a42ab2fa2055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosc2336_final_console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cosc2336_final_console.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosc2336_final_console/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cosc2336_final_console/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosc2336_final_console/src/cosc2336_final_console/Cosc2336_final_console.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/app/MusicApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/app/MusicApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/console/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/console/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/db/MusicDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/db/MusicDB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +56,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/db/MusicDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="401">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/app/MusicApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/models/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/console/Console.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -89,6 +117,9 @@
         <option value="$PROJECT_DIR$/src/net/lowerytech/models/Album.java" />
         <option value="$PROJECT_DIR$/src/net/lowerytech/db/MusicDB.java" />
         <option value="$PROJECT_DIR$/src/net/lowerytech/models/Artist.java" />
+        <option value="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/db/MusicDB.java" />
+        <option value="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/console/Console.java" />
+        <option value="$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/app/MusicApp.java" />
       </list>
     </option>
   </component>
@@ -109,17 +140,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\terryllowery\Documents\code\cosc2336_final_console" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\terryllowery\Documents\code\cosc2336_final_console" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="cosc2336_final_console" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lowerytech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lowerytech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lowerytech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="console" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lowerytech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cosc2336_final_console" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cosc2336_final_console" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="net" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lowerytech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +232,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558205404977" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cosc_2336_gui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -221,17 +297,19 @@
       <workItem from="1558050275892" duration="2829000" />
       <workItem from="1558061875816" duration="317000" />
       <workItem from="1558188439543" duration="11122000" />
-      <workItem from="1558224697740" duration="1011000" />
+      <workItem from="1558224697740" duration="1341000" />
+      <workItem from="1558232631840" duration="1659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29801000" />
+    <option name="totallyTimeSpent" value="31790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31292516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31746033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4013245" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4013245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,45 +415,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/app/MusicApp.java">
+    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/app/MusicApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/db/MusicDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/console/Console.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/models/Album.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/models/Artist.java" />
+    <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/models/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/db/MusicDB.java">
+    <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/console/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/console/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/models/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lowerytech/models/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/db/MusicDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="401">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosc2336_final_console/src/net/lowerytech/app/MusicApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
         </state>
       </provider>
     </entry>
