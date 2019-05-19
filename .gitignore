@@ -27,3 +27,5 @@ hs_err_pid*
 # output
 out/*
 
+/cosc2336_final_console/nbproject/private/
+/cosc2336_final_console/build/
